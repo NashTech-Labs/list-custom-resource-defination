@@ -1,10 +1,5 @@
 from kubernetes import client, utils 
-from django.urls import path
-from time import sleep
 
-import os
-import glob
-import yaml
 import kubernetes.client
 from kubernetes.client import ApiClient
 
